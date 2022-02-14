@@ -1,0 +1,21 @@
+.logo {
+  width: 30px;
+  margin: 20px;
+}
+
+.flag {
+  width: 25px;
+  margin: 5px;
+}
+
+.opaque {
+  opacity: 100%;
+}
+
+.fade {
+  opacity: 50%;
+}
+
+.header-placeholder {
+  height: 80px;
+}

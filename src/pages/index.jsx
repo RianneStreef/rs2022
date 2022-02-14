@@ -24,6 +24,7 @@ const IndexPage = function (props) {
         <meta name="keywords" content={languageToUse.metaKeywords} />
         <link rel="canonical" href={intakeInfo.domainName} />
       </Helmet>
+      <div className="header-placeholder" />
     </div>
   );
 };
