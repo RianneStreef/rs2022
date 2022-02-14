@@ -24,6 +24,9 @@ module.exports = {
           "G-CR9V44788C", // Google Analytics / GA
           "UA-220311142-1",
         ],
+        pluginConfig: {
+          // Puts tracking script in the head instead of the body
+          head: true,
       },
     },
     "gatsby-plugin-image",
