@@ -28,6 +28,10 @@ module.exports = {
           // Puts tracking script in the head instead of the body
           head: true,
         },
+        // defaults to false
+        enableWebVitalsTracking: true,
+        // Setting this parameter is also optional
+        respectDNT: true,
       },
     },
     "gatsby-plugin-image",
