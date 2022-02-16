@@ -70,7 +70,7 @@ const Contact = (props) => {
             </p>
             <div className="center-button-container">
               <button
-                className="custom_button"
+                className="custom-button"
                 type="submit"
                 value="Submit message"
               >

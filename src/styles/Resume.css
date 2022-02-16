@@ -11,9 +11,16 @@
 }
 
 .resume-card {
-  width: 40vw;
+  width: 80vw;
   background-color: #eaeaea;
   padding: 20px;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
   border-radius: 5px;
+  margin: 20px 0;
+}
+
+@media only screen and (min-width: 768px) {
+  .resume-card {
+    width: 40vw;
+  }
 }

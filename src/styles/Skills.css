@@ -1,5 +1,5 @@
 .skills {
-  height: calc(100vh - 60px);
+  min-height: calc(100vh - 60px);
   margin-bottom: 80px;
 }
 
@@ -11,7 +11,7 @@
 
 .skills-details {
   margin: 30px;
-  width: 40vw;
+  width: 80vw;
 }
 
 .skills-icon {
@@ -98,4 +98,10 @@
 
 .skill8-light-pink {
   width: 40%;
+}
+
+@media only screen and (min-width: 768px) {
+  .skills-details {
+    width: 40vw;
+  }
 }

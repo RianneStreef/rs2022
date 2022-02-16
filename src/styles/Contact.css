@@ -1,11 +1,11 @@
-.contact-card {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
+.contact {
+  min-height: calc(100vh - 60px);
 }
 
-.contact-card > * {
-  width: 40vw;
+.contact-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
 }
 
 .form-container {
@@ -18,5 +18,20 @@ input,
 textarea {
   border: none;
   border-bottom: 1px solid black;
-  width: 40vw;
+  width: 80vw;
+}
+
+@media only screen and (min-width: 768px) {
+  .contact-card {
+    flex-direction: row;
+  }
+
+  .contact-card > * {
+    width: 40vw;
+  }
+
+  input,
+  textarea {
+    width: 40vw;
+  }
 }

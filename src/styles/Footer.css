@@ -1,0 +1,23 @@
+.footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #000;
+  color: #fff;
+}
+
+.copyright {
+  font-size: 10px;
+}
+
+.social {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.social-logo {
+  width: 25px;
+  margin: 0 10px;
+}
