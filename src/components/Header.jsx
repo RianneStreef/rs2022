@@ -25,6 +25,9 @@ const Header = (props) => {
     : (languageToUse = content.french);
   return (
     <div className="header">
+      <Link to="/" className="logo-link">
+        <img src={logo} alt="Logo" className="logo" />
+      </Link>
       <div className="hidden-desktop">
         <Burger
           language={language}
@@ -35,7 +38,32 @@ const Header = (props) => {
       <ul className="links hidden-mobile">
         <li>
           <Link to="/" className="nav-link">
-            Welcome
+            {languageToUse.home}
+          </Link>
+        </li>
+        <li>
+          <Link to="/#about" className="nav-link">
+            {languageToUse.about}
+          </Link>
+        </li>
+        <li>
+          <Link to="/#resume" className="nav-link">
+            {languageToUse.resume}
+          </Link>
+        </li>
+        <li>
+          <Link to="/#skills" className="nav-link">
+            {languageToUse.skills}
+          </Link>
+        </li>
+        <li>
+          <Link to="/#projects" className="nav-link">
+            {languageToUse.projects}
+          </Link>
+        </li>
+        <li>
+          <Link to="/#contact" className="nav-link">
+            {languageToUse.contact}
           </Link>
         </li>
 
@@ -58,9 +86,6 @@ const Header = (props) => {
           </div>
         </li>
       </ul>
-      <Link to="/" className="logo-link">
-        <img src={logo} alt="Logo" className="logo" />
-      </Link>
     </div>
   );
 };

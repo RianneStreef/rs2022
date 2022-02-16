@@ -73,7 +73,52 @@ const Navbar = (props) => {
       <Ul open={open}>
         <li>
           <Link to="/" className="nav-link" onClick={() => setOpen(!open)}>
-            Welcome
+            {languageToUse.home}
+          </Link>
+        </li>
+        <li>
+          <Link
+            to="/#about"
+            className="nav-link"
+            onClick={() => setOpen(!open)}
+          >
+            {languageToUse.about}
+          </Link>
+        </li>
+        <li>
+          <Link
+            to="/#resume"
+            className="nav-link"
+            onClick={() => setOpen(!open)}
+          >
+            {languageToUse.resume}
+          </Link>
+        </li>
+        <li>
+          <Link
+            to="/#skills"
+            className="nav-link"
+            onClick={() => setOpen(!open)}
+          >
+            {languageToUse.skills}
+          </Link>
+        </li>
+        <li>
+          <Link
+            to="/#projects"
+            className="nav-link"
+            onClick={() => setOpen(!open)}
+          >
+            {languageToUse.projects}
+          </Link>
+        </li>
+        <li>
+          <Link
+            to="/#contact"
+            className="nav-link"
+            onClick={() => setOpen(!open)}
+          >
+            {languageToUse.contact}
           </Link>
         </li>
 

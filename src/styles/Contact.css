@@ -1,0 +1,22 @@
+.contact-card {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.contact-card > * {
+  width: 40vw;
+}
+
+.form-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+input,
+textarea {
+  border: none;
+  border-bottom: 1px solid black;
+  width: 40vw;
+}

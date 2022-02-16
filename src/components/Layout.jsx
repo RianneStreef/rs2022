@@ -4,7 +4,7 @@ import Header from "./Header";
 import Footer from "./Footer";
 
 const Layout = ({ children }) => {
-  let [language, setLanguage] = useState("french");
+  let [language, setLanguage] = useState("english");
   let languageToUse = "";
   let languageInStorage = "";
 

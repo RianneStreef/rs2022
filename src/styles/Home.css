@@ -1,0 +1,33 @@
+.home {
+  display: flex;
+  flex-direction: column;
+  height: calc(100vh - 60px);
+  margin-bottom: 80px;
+}
+
+.home-title {
+  display: flex;
+  flex-direction: column;
+  padding: 50px;
+}
+
+.home-title-1 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: 20px;
+}
+
+.home-title-2 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: 20px;
+}
+
+@media only screen and (min-width: 768px) {
+  .home {
+    flex-direction: row;
+    justify-content: space-around;
+  }
+}

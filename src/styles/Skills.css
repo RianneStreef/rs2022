@@ -1,0 +1,101 @@
+.skills {
+  height: calc(100vh - 60px);
+  margin-bottom: 80px;
+}
+
+.skills-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.skills-details {
+  margin: 30px;
+  width: 40vw;
+}
+
+.skills-icon {
+  width: 20px;
+  margin: 0 10px;
+}
+
+.skills-title {
+  display: flex;
+  justify-content: space-between;
+}
+
+.skills-title h6 {
+  font-size: 15px;
+}
+
+.progress {
+  margin-top: 10px;
+}
+
+.pink {
+  background-color: var(--color-highlight);
+  height: 10px;
+}
+
+.light-pink {
+  background-color: var(--color-shadow);
+  height: 10px;
+}
+
+.skill1-pink {
+  width: 95%;
+}
+
+.skill1-light-pink {
+  width: 5%;
+}
+
+.skill2-pink {
+  width: 90%;
+}
+
+.skill2-light-pink {
+  width: 10%;
+}
+.skill3-pink {
+  width: 70%;
+}
+
+.skill3-light-pink {
+  width: 30%;
+}
+.skill4-pink {
+  width: 75%;
+}
+
+.skill4-light-pink {
+  width: 25%;
+}
+.skill5-pink {
+  width: 75%;
+}
+
+.skill5-light-pink {
+  width: 25%;
+}
+.skill6-pink {
+  width: 90%;
+}
+
+.skill6-light-pink {
+  width: 10%;
+}
+.skill7-pink {
+  width: 80%;
+}
+
+.skill7-light-pink {
+  width: 20%;
+}
+.skill8-pink {
+  width: 60%;
+}
+
+.skill8-light-pink {
+  width: 40%;
+}

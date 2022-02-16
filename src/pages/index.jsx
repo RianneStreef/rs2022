@@ -6,6 +6,13 @@ import "../styles/global.css";
 import { content } from "../content/languages";
 import intakeInfo from "../content/intake";
 
+import Home from "../components/Home";
+import About from "../components/About";
+import Resume from "../components/Resume";
+import Skills from "../components/Skills";
+import Projects from "../components/Projects";
+import Contact from "../components/Contact";
+
 const IndexPage = function (props) {
   let { language, languageToUse } = props;
 
@@ -25,6 +32,12 @@ const IndexPage = function (props) {
         <link rel="canonical" href={intakeInfo.domainName} />
       </Helmet>
       <div className="header-placeholder" />
+      <Home language={language} languageToUse={languageToUse} />
+      <About language={language} languageToUse={languageToUse} />
+      <Resume language={language} languageToUse={languageToUse} />
+      <Skills language={language} languageToUse={languageToUse} />
+      <Projects language={language} languageToUse={languageToUse} />
+      <Contact language={language} languageToUse={languageToUse} />
     </div>
   );
 };

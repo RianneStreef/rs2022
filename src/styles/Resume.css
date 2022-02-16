@@ -1,0 +1,19 @@
+.resume {
+  min-height: calc(100vh - 60px);
+  margin-bottom: 80px;
+}
+
+.resume-cards {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.resume-card {
+  width: 40vw;
+  background-color: #eaeaea;
+  padding: 20px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  border-radius: 5px;
+}
