@@ -10,6 +10,7 @@
   height: calc(100vh - 60px);
   backdrop-filter: blur(5px);
   position: absolute;
+  margin-top: 100px;
 }
 
 .project-info-card {
@@ -19,15 +20,29 @@
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 
+.project-images {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  min-height: 90vh;
+}
+
 .project-image {
   margin: 20px;
 }
 
 .claire {
-  width: 50%;
+  width: 30%;
 }
 
 .faceOuest {
-  height: 30%;
+  width: 20%;
+}
+
+.seb {
   width: 30%;
+}
+
+.core {
+  width: 25%;
 }

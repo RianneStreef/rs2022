@@ -21,7 +21,7 @@ const About = (props) => {
         <span className="about-subject">{languageToUse.name}:</span>
         <span className="grey-text">Rianne Streef</span>
         <br />
-        <span className="about-subject">{languageToUse.dateOfBirth}:</span>{" "}
+        <span className="about-subject">{languageToUse.dateOfBirth}:</span>
         <span className="grey-text">13 / 11 / 1985</span>
         <br />
         <span className="about-subject">{languageToUse.nationalityTitle}:</span>

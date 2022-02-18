@@ -7,6 +7,8 @@ import "../styles/Projects.css";
 
 import claire from "../images/claire.jpeg";
 import faceOuest from "../images/faceOuest.jpeg";
+import core from "../images/core.jpeg";
+import seb from "../images/seb.jpeg";
 
 const Projects = (props) => {
   let { language, languageToUse } = props;
@@ -33,14 +35,14 @@ const Projects = (props) => {
         <div className="project-info">
           <div className="project-info-card">
             Project Info <span onClick={() => closeProjectCard()}>X</span>
-            <p>{`{projects.${project}.title}`}</p>
+            <p>title</p>
           </div>
         </div>
       ) : null}
       <h3>{languageToUse.projects}</h3>
 
       <p className="grey-text intro-text">{languageToUse.projectsIntro}</p>
-      <div>
+      <div className="project-images">
         <img
           src={claire}
           alt="Claire Turner Design Website"
@@ -52,6 +54,18 @@ const Projects = (props) => {
           alt="Restaurant FaceOuest Website"
           className="project-image faceOuest"
           onClick={() => handleSetProject("faceOuest")}
+        />
+        <img
+          src={seb}
+          alt="Restaurant FaceOuest Website"
+          className="project-image seb"
+          onClick={() => handleSetProject("seb")}
+        />
+        <img
+          src={core}
+          alt="Claire Turner Design Website"
+          className="project-image core"
+          onClick={() => handleSetProject("core")}
         />
       </div>
     </div>
