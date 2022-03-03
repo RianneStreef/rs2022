@@ -10,39 +10,58 @@
   height: calc(100vh - 60px);
   backdrop-filter: blur(5px);
   position: absolute;
-  margin-top: 100px;
+  margin-top: 150px;
 }
 
 .project-info-card {
-  width: 50vw;
-  height: 50vh;
+  width: 80vw;
+  height: 60vh;
   background-color: #fff;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  margin-top: 50px;
 }
 
 .project-images {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around;
-  min-height: 90vh;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.project-images a {
+  width: 80vw;
+  margin: auto;
+  height: fit-content;
 }
 
 .project-image {
   margin: 20px;
+  width: 100%;
 }
 
-.claire {
-  width: 30%;
+.caribou {
+  width: 80%;
 }
 
-.faceOuest {
-  width: 20%;
+.optic {
+  width: 80%;
 }
 
-.seb {
-  width: 30%;
-}
+@media only screen and (min-width: 768px) {
+  .project-info-card {
+    width: 50vw;
+    height: 50vh;
+    margin-top: -20%;
+  }
 
-.core {
-  width: 25%;
+  .project-images {
+    flex-direction: row;
+  }
+
+  .project-images a {
+    width: 15vw;
+    margin: 10px 30px;
+    height: fit-content;
+  }
 }

@@ -3,8 +3,9 @@ export const english = {
 
   indexTitle: "Rianne Streef",
   metaDescription:
-    "Web Developer based in the Belleville valley in the French Alps. ",
-  metaKeywords: "English keywords",
+    "Rianne Streef, web developer from Val Thorens, 3 Valleys. For websites that are an investment, not a cost.",
+  metaKeywords:
+    "web development, website, Val Thorens, Les Belleville, 3 Valleys",
 
   home: "Home",
   about: "About",
@@ -20,26 +21,31 @@ export const english = {
   underTitle3: " based in Val Thorens",
 
   aboutTitle: "About Me",
-  aboutIntro: "Bla die bla die bla bla bla bla bla de bla bla",
+  aboutIntro:
+    "I'm Rianne, a freelance web developer from Val Thorens. I create responsive websites and mobile applications that work for your business! I'm passionate about tech, design, and development.",
 
   name: "Name",
   dateOfBirth: "Date of Birth",
   nationalityTitle: "Nationality",
   nationality: "Dutch",
-  placeOfResidence: "Val Thorens, France",
+  placeOfResidence: "Place of Residence",
   email: "Email",
   phone: "Phone",
 
-  resumeIntro: "Bla die bla die bla bla bla bla bla de bla bla",
+  resumeIntro: "My education",
 
-  hdhIntro: "Bla die bla die bla bla bla bla bla de bla bla",
-  ocIntro: "Bla die bla die bla bla bla bla bla de bla bla",
+  hdhIntro:
+    "Hotelschool The Hague is a single sector university of applied sciences in the Netherlands.",
+  ocIntro:
+    "OpenClassrooms is a France-based online education platform for vocational training, providing courses in IT, technology, entrepreneurship, and digital skills.",
+  udemyIntro:
+    "Udemy, Inc. is a for-profit massive open online course provider aimed at professional adults and students.",
 
-  skillsIntro: "Bla die bla die bla bla bla bla bla de bla bla",
+  skillsIntro: "What can we work with",
 
-  projectsIntro: "Click on the photo for more details",
+  projectsIntro: "Happy clients! - Click on the photos for more details",
 
-  contactIntro: "Bla die bla die bla bla bla bla bla de bla bla",
+  contactIntro: "Let's talk!",
 
   message: "Message",
   send: "Send",

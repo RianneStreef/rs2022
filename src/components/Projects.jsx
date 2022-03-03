@@ -1,4 +1,6 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
+
+import { Link } from "gatsby";
 
 import { content } from "../content/languages";
 import { projects } from "../content/projects";
@@ -9,6 +11,9 @@ import claire from "../images/claire.jpeg";
 import faceOuest from "../images/faceOuest.jpeg";
 import core from "../images/core.jpeg";
 import seb from "../images/seb.jpeg";
+import rendezvous from "../images/rendezvous.jpeg";
+import caribou from "../images/caribou.jpeg";
+import optic from "../images/optic.jpeg";
 
 const Projects = (props) => {
   let { language, languageToUse } = props;
@@ -18,7 +23,7 @@ const Projects = (props) => {
     : (languageToUse = content.french);
 
   let [show, setShow] = useState(false);
-  let [project, setProject] = useState("");
+  let [currentProject, setProject] = useState("");
 
   function handleSetProject(project) {
     setProject(project);
@@ -29,13 +34,22 @@ const Projects = (props) => {
     setShow(false);
   }
 
+  let projectToShow = projects[currentProject];
+
+  useEffect(() => {
+    const body = document.querySelector("body");
+    body.style.overflow = show ? "hidden" : "auto";
+  }, [show, currentProject]);
+
   return (
     <div className="projects" id="projects">
+      <div className="header-placeholder" />
+
       {show ? (
         <div className="project-info">
           <div className="project-info-card">
             Project Info <span onClick={() => closeProjectCard()}>X</span>
-            <p>title</p>
+            <p>{projectToShow.title}</p>
           </div>
         </div>
       ) : null}
@@ -43,30 +57,63 @@ const Projects = (props) => {
 
       <p className="grey-text intro-text">{languageToUse.projectsIntro}</p>
       <div className="project-images">
-        <img
-          src={claire}
-          alt="Claire Turner Design Website"
-          className="project-image claire"
-          onClick={() => handleSetProject("claire")}
-        />
-        <img
-          src={faceOuest}
-          alt="Restaurant FaceOuest Website"
-          className="project-image faceOuest"
-          onClick={() => handleSetProject("faceOuest")}
-        />
-        <img
-          src={seb}
-          alt="Restaurant FaceOuest Website"
-          className="project-image seb"
-          onClick={() => handleSetProject("seb")}
-        />
-        <img
-          src={core}
-          alt="Claire Turner Design Website"
-          className="project-image core"
-          onClick={() => handleSetProject("core")}
-        />
+        <Link to="/#projects">
+          <img
+            src={claire}
+            alt="Claire Turner Design Website"
+            className="project-image claire"
+            onClick={() => handleSetProject("claire")}
+          />
+        </Link>
+        <Link to="/#projects">
+          <img
+            src={faceOuest}
+            alt="Restaurant FaceOuest Website"
+            className="project-image faceOuest"
+            onClick={() => handleSetProject("faceOuest")}
+          />
+        </Link>
+        <Link to="/#projects">
+          <img
+            src={seb}
+            alt="Restaurant FaceOuest Website"
+            className="project-image seb"
+            onClick={() => handleSetProject("seb")}
+          />
+        </Link>
+        <Link to="/#projects">
+          <img
+            src={caribou}
+            alt="Restaurant Caribou Website"
+            className="project-image caribou"
+            onClick={() => handleSetProject("caribou")}
+          />
+        </Link>
+        <Link to="/#projects">
+          <img
+            src={core}
+            alt="Claire Turner Design Website"
+            className="project-image core"
+            onClick={() => handleSetProject("core")}
+          />
+        </Link>
+
+        <Link to="/#projects">
+          <img
+            src={rendezvous}
+            alt="Restaurant Rendez Vous Website"
+            className="project-image rendezvous"
+            onClick={() => handleSetProject("rendezvous")}
+          />
+        </Link>
+        <Link to="/#projects">
+          <img
+            src={optic}
+            alt="Optic 2300"
+            className="project-image optic"
+            onClick={() => handleSetProject("optic")}
+          />
+        </Link>
       </div>
     </div>
   );

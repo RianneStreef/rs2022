@@ -21,6 +21,8 @@ const Skills = (props) => {
     : (languageToUse = content.french);
   return (
     <div className="skills" id="skills">
+      <div className="header-placeholder" />
+
       <h3>{languageToUse.skills}</h3>
       <p className="grey-text intro-text">{languageToUse.skillsIntro}</p>
       <div className="skills-container">
@@ -33,8 +35,8 @@ const Skills = (props) => {
             <h6>95%</h6>
           </div>
           <div className="row progress">
-            <div class="pink skill1-pink" />
-            <div class="light-pink skill1-light-pink" />
+            <div className="pink skill1-pink" />
+            <div className="light-pink skill1-light-pink" />
           </div>
         </div>
         <div className="skills-details">
@@ -46,8 +48,8 @@ const Skills = (props) => {
             <h6>90%</h6>
           </div>
           <div className="row progress">
-            <div class="pink skill2-pink" />
-            <div class="light-pink skill2-light-pink" />
+            <div className="pink skill2-pink" />
+            <div className="light-pink skill2-light-pink" />
           </div>
         </div>
         <div className="skills-details">
@@ -59,8 +61,8 @@ const Skills = (props) => {
             <h6>70%</h6>
           </div>
           <div className="row progress">
-            <div class="pink skill3-pink" />
-            <div class="light-pink skill3-light-pink" />
+            <div className="pink skill3-pink" />
+            <div className="light-pink skill3-light-pink" />
           </div>
         </div>
         <div className="skills-details">
@@ -72,8 +74,8 @@ const Skills = (props) => {
             <h6>75%</h6>
           </div>
           <div className="row progress">
-            <div class="pink skill4-pink" />
-            <div class="light-pink skill4-light-pink" />
+            <div className="pink skill4-pink" />
+            <div className="light-pink skill4-light-pink" />
           </div>
         </div>
         <div className="skills-details">
@@ -85,8 +87,8 @@ const Skills = (props) => {
             <h6>75%</h6>
           </div>
           <div className="row progress">
-            <div class="pink skill5-pink" />
-            <div class="light-pink skill5-light-pink" />
+            <div className="pink skill5-pink" />
+            <div className="light-pink skill5-light-pink" />
           </div>
         </div>
         <div className="skills-details">
@@ -98,8 +100,8 @@ const Skills = (props) => {
             <h6>90%</h6>
           </div>
           <div className="row progress">
-            <div class="pink skill6-pink" />
-            <div class="light-pink skill6-light-pink" />
+            <div className="pink skill6-pink" />
+            <div className="light-pink skill6-light-pink" />
           </div>
         </div>
         <div className="skills-details">
@@ -111,8 +113,8 @@ const Skills = (props) => {
             <h6>80%</h6>
           </div>
           <div className="row progress">
-            <div class="pink skill7-pink" />
-            <div class="light-pink skill7-light-pink" />
+            <div className="pink skill7-pink" />
+            <div className="light-pink skill7-light-pink" />
           </div>
         </div>
         <div className="skills-details">
@@ -124,8 +126,8 @@ const Skills = (props) => {
             <h6>60%</h6>
           </div>
           <div className="row progress">
-            <div class="pink skill8-pink" />
-            <div class="light-pink skill8-light-pink" />
+            <div className="pink skill8-pink" />
+            <div className="light-pink skill8-light-pink" />
           </div>
         </div>
       </div>

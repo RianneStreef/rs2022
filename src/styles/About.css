@@ -7,10 +7,6 @@
   margin: 20px;
 }
 
-.about > * {
-  width: 45vw;
-}
-
 .about-subject {
   display: inline-block;
   min-width: 200px;
@@ -19,5 +15,10 @@
 @media only screen and (min-width: 768px) {
   .about {
     flex-direction: row;
+    justify-content: space-evenly;
+  }
+  .about > * {
+    width: 45%;
+    height: 45%;
   }
 }

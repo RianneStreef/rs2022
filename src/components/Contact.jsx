@@ -14,6 +14,8 @@ const Contact = (props) => {
     : (languageToUse = content.french);
   return (
     <div className="contact" id="contact">
+      <div className="header-placeholder" />
+
       <h3>{languageToUse.contact}</h3>
       <p className="grey-text intro-text">{languageToUse.contactIntro}</p>
 

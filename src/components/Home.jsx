@@ -10,9 +10,6 @@ import github from "../images/github.png";
 const Home = (props) => {
   let { language, languageToUse } = props;
 
-  console.log("language in home");
-  console.log(languageToUse);
-
   language === "english"
     ? (languageToUse = content.english)
     : (languageToUse = content.french);
