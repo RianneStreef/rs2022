@@ -8,9 +8,9 @@ import me from "../images/icon.png";
 const About = (props) => {
   let { language, languageToUse } = props;
 
-  language === "english"
-    ? (languageToUse = content.english)
-    : (languageToUse = content.french);
+  language === "english" ? (languageToUse = content.english) : null;
+  language === "french" ? (languageToUse = content.french) : null;
+  language === "dutch" ? (languageToUse = content.dutch) : null;
 
   return (
     <div id="about">

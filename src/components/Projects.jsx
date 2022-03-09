@@ -15,6 +15,8 @@ import rendezvous from "../images/rendezvous.jpeg";
 import caribou from "../images/caribou.jpeg";
 import optic from "../images/optic.jpeg";
 
+import x from "../images/x.png";
+
 const Projects = (props) => {
   let { language, languageToUse } = props;
 
@@ -28,6 +30,7 @@ const Projects = (props) => {
   function handleSetProject(project) {
     setProject(project);
     setShow(true);
+    console.log(project);
   }
 
   function closeProjectCard() {
@@ -35,6 +38,8 @@ const Projects = (props) => {
   }
 
   let projectToShow = projects[currentProject];
+  console.log(projectToShow);
+  console.log(language);
 
   useEffect(() => {
     const body = document.querySelector("body");
@@ -48,8 +53,25 @@ const Projects = (props) => {
       {show ? (
         <div className="project-info">
           <div className="project-info-card">
-            Project Info <span onClick={() => closeProjectCard()}>X</span>
-            <p>{projectToShow.title}</p>
+            <img src={x} onClick={() => closeProjectCard()} className="x" />
+            <div className="project-info-card-inner">
+              <p>{projectToShow.title}</p>
+              {language === "english" ? (
+                <p>{projectToShow.descriptionEn}</p>
+              ) : (
+                <p>No english description</p>
+              )}
+              {language === "french" ? (
+                <p>{projectToShow.descriptionFr}</p>
+              ) : (
+                <p>No fr description</p>
+              )}
+              {language == "dutch" ? (
+                <p>{projectToShow.descriptionNl}</p>
+              ) : (
+                <p>No nl description</p>
+              )}
+            </div>
           </div>
         </div>
       ) : null}
