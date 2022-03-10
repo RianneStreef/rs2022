@@ -14,7 +14,7 @@ import Projects from "../components/Projects";
 import Contact from "../components/Contact";
 
 const IndexPage = function (props) {
-  let { language, languageToUse } = props;
+  let { language, languageToUse, darkMode } = props;
 
   language === "english" ? (languageToUse = content.english) : null;
   language === "french" ? (languageToUse = content.french) : null;
@@ -34,7 +34,11 @@ const IndexPage = function (props) {
       <About language={language} languageToUse={languageToUse} />
       <Resume language={language} languageToUse={languageToUse} />
       <Skills language={language} languageToUse={languageToUse} />
-      <Projects language={language} languageToUse={languageToUse} />
+      <Projects
+        language={language}
+        languageToUse={languageToUse}
+        darkMode={darkMode}
+      />
       <Contact language={language} languageToUse={languageToUse} />
     </div>
   );

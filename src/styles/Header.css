@@ -1,6 +1,6 @@
 .header {
   position: fixed;
-  background-color: var(--color-light);
+  background-color: var(--color-background, 0.9);
   width: 100vw;
   height: 60px;
   display: flex;
@@ -8,6 +8,7 @@
   align-items: center;
   margin-top: 0;
   z-index: 999;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 
 .links {
@@ -29,7 +30,7 @@
 }
 
 .nav-link {
-  color: var(--color-dark);
+  color: var(--color-text);
   text-decoration: none;
   margin: 10px;
   transition: all 500ms linear;

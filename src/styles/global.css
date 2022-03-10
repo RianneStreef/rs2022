@@ -7,14 +7,16 @@
 :root {
   --color-highlight: #d31376;
   --color-shadow: #eaeaea;
-  --color-dark: #000;
-  --color-light: #fff;
+  --color-text: #000;
+  --color-background: #fff;
 }
 
 body {
   margin: 0;
   padding: 0;
   font-family: "Montserrat";
+  color: var(--color-text);
+  background-color: var(--color-background);
 }
 
 .layout {
@@ -110,7 +112,8 @@ span {
 
 .custom-button {
   font-family: "Montserrat";
-  background-color: var(--color-shadow);
+  background-color: var(--color-text);
+  color: var(--color-background);
   padding: 10px;
   border: none;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;

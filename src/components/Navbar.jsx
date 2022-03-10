@@ -11,7 +11,7 @@ const Ul = styled.ul`
   list-style: none;
   display: flex;
   z-index: 100;
-  background-color: #fff;
+  background-color: var(--background-color);
   margin-top: 0;
   padding-left: 0;
   width: 100%;

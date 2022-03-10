@@ -22,7 +22,7 @@ export const english = {
 
   aboutTitle: "About Me",
   aboutIntro:
-    "I'm Rianne, a freelance web developer from Val Thorens. I create responsive websites and mobile applications that work for your business! I'm passionate about tech, design, and development.",
+    "I'm Rianne, a freelance web developer from Val Thorens. I create responsive websites and mobile applications that work for your business! I'm passionate about development, tech, and unicorns.",
 
   name: "Name",
   dateOfBirth: "Date of Birth",

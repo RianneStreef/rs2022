@@ -16,9 +16,10 @@ import caribou from "../images/caribou.jpeg";
 import optic from "../images/optic.jpeg";
 
 import x from "../images/x.png";
+import xWhite from "../images/x-white.png";
 
 const Projects = (props) => {
-  let { language, languageToUse } = props;
+  let { language, languageToUse, darkMode } = props;
 
   language === "english"
     ? (languageToUse = content.english)
@@ -53,24 +54,29 @@ const Projects = (props) => {
       {show ? (
         <div className="project-info">
           <div className="project-info-card">
-            <img src={x} onClick={() => closeProjectCard()} className="x" />
+            {darkMode === false ? (
+              <img src={x} onClick={() => closeProjectCard()} className="x" />
+            ) : (
+              <img
+                src={xWhite}
+                onClick={() => closeProjectCard()}
+                className="x"
+              />
+            )}
             <div className="project-info-card-inner">
-              <p>{projectToShow.title}</p>
+              <p className="product-card-title">{projectToShow.title}</p>
               {language === "english" ? (
                 <p>{projectToShow.descriptionEn}</p>
-              ) : (
-                <p>No english description</p>
-              )}
+              ) : null}
               {language === "french" ? (
                 <p>{projectToShow.descriptionFr}</p>
-              ) : (
-                <p>No fr description</p>
-              )}
+              ) : null}
               {language == "dutch" ? (
                 <p>{projectToShow.descriptionNl}</p>
-              ) : (
-                <p>No nl description</p>
-              )}
+              ) : null}
+              <a href={projectToShow.link} target="_blank">
+                {projectToShow.link}
+              </a>
             </div>
           </div>
         </div>
