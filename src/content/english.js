@@ -14,7 +14,7 @@ export const english = {
   projects: "Projects",
   contact: "Contact",
 
-  mainTitle1: "I'm ",
+  mainTitle1: "Hi! I'm ",
   mainTitle2: "Rianne Streef",
   underTitle1: "A ",
   underTitle2: "web developer ",

@@ -17,11 +17,12 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  font-size: 10px;
 }
 
 .social-logo {
   width: 25px;
-  margin: 0 10px;
+  margin: 0 10px 10px 10px;
 }
 
 .dark-mode {

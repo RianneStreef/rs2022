@@ -5,6 +5,7 @@ import "../styles/Contact.css";
 import { content } from "../content/languages";
 
 import me from "../images/icon.png";
+import Unicorn from "../components/Unicorn";
 
 const Contact = (props) => {
   let { language, languageToUse } = props;
@@ -81,7 +82,7 @@ const Contact = (props) => {
             </div>
           </form>
         </div>
-        <img src={me} alt="Me!" className="me-2" />
+        <Unicorn />
       </div>
     </div>
   );

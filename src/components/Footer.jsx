@@ -5,9 +5,7 @@ import "../styles/Footer.css";
 import github from "../images/github-white.png";
 import insta from "../images/instagram.png";
 
-import thumbsUpBlack from "../images/thumbs-up-black.png";
 import thumbsUpWhite from "../images/thumbs-up-white.png";
-import thumbsDownBlack from "../images/thumbs-down-black.png";
 import thumbsDownWhite from "../images/thumbs-down-white.png";
 
 const Footer = (props) => {
