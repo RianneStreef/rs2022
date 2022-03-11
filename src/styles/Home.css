@@ -1,7 +1,6 @@
 .home {
   display: flex;
   flex-direction: column;
-  height: calc(100vh - 60px);
 }
 
 .home-title {
@@ -29,5 +28,6 @@
     flex-direction: row;
     justify-content: space-around;
     margin-bottom: 80px;
+    height: calc(100vh - 60px);
   }
 }
