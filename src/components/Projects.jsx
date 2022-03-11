@@ -51,14 +51,14 @@ const Projects = (props) => {
       {show ? (
         <div className="project-info">
           <div className="project-info-card">
-            {darkMode === false ? (
-              <img src={x} onClick={() => closeProjectCard()} className="x" />
-            ) : (
+            {darkMode === true ? (
               <img
                 src={xWhite}
                 onClick={() => closeProjectCard()}
                 className="x"
               />
+            ) : (
+              <img src={x} onClick={() => closeProjectCard()} className="x" />
             )}
             <div className="project-info-card-inner">
               <p className="product-card-title">{projectToShow.title}</p>

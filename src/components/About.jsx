@@ -16,7 +16,7 @@ const About = (props) => {
     <div id="about">
       <div className="header-placeholder" />
       <div className="about">
-        <img src={me} alt="Me!" className="me-2" />
+        <img src={me} alt="Me!" className="me-2 hidden-mobile" />
         <div className="about-details">
           <h3>{languageToUse.aboutTitle}</h3>
           <p className="intro-text grey-text">{languageToUse.aboutIntro}</p>
