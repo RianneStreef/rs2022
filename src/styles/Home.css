@@ -2,7 +2,6 @@
   display: flex;
   flex-direction: column;
   height: calc(100vh - 60px);
-  margin-bottom: 80px;
 }
 
 .home-title {
@@ -29,5 +28,6 @@
   .home {
     flex-direction: row;
     justify-content: space-around;
+    margin-bottom: 80px;
   }
 }
