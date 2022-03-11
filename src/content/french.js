@@ -50,6 +50,8 @@ export const french = {
   message: "Message",
   send: "Send",
 
+  legal: "Mentions légales",
+
   thanks:
     "Thank you for your message, I will get back to you as soon as possible.",
 };

@@ -8,7 +8,7 @@ const Layout = ({ children }) => {
   let languageToUse = "";
   let languageInStorage = "";
 
-  let [darkMode, setDarkMode] = useState("true");
+  let [darkMode, setDarkMode] = useState("false");
 
   // useEffect(() => {
   //   if (localStorage.getItem("languageInStorage")) {
@@ -17,10 +17,6 @@ const Layout = ({ children }) => {
   //     console.log(languageInStorage);
   //   }
   // }, []);
-
-  useEffect(() => {
-    setDarkMode(false);
-  }, []);
 
   const childrenWithProps = React.Children.map(children, (child) =>
     React.cloneElement(child, {

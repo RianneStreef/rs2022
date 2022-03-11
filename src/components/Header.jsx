@@ -27,7 +27,6 @@ const Header = (props) => {
   language === "french" ? (languageToUse = content.french) : null;
   language === "dutch" ? (languageToUse = content.dutch) : null;
 
-  console.log(languageToUse);
   return (
     <div className="header">
       <Link to="/" className="logo-link">

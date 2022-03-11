@@ -21,9 +21,9 @@ import xWhite from "../images/x-white.png";
 const Projects = (props) => {
   let { language, languageToUse, darkMode } = props;
 
-  language === "english"
-    ? (languageToUse = content.english)
-    : (languageToUse = content.french);
+  language === "english" ? (languageToUse = content.english) : null;
+  language === "french" ? (languageToUse = content.french) : null;
+  language === "dutch" ? (languageToUse = content.dutch) : null;
 
   let [show, setShow] = useState(false);
   let [currentProject, setProject] = useState("");
@@ -31,7 +31,6 @@ const Projects = (props) => {
   function handleSetProject(project) {
     setProject(project);
     setShow(true);
-    console.log(project);
   }
 
   function closeProjectCard() {
@@ -39,8 +38,6 @@ const Projects = (props) => {
   }
 
   let projectToShow = projects[currentProject];
-  console.log(projectToShow);
-  console.log(language);
 
   useEffect(() => {
     const body = document.querySelector("body");
