@@ -6,7 +6,7 @@ import Footer from "./Footer";
 const Layout = ({ children }) => {
   let [language, setLanguage] = useState("english");
   let languageToUse = "";
-  let languageInStorage = "";
+  //  let languageInStorage = "";
 
   let [darkMode, setDarkMode] = useState("false");
 
@@ -18,11 +18,17 @@ const Layout = ({ children }) => {
   //   }
   // }, []);
 
+  useEffect(() => {
+    console.log("darkMode useEffect Layout");
+    console.log(darkMode);
+  }, [darkMode]);
+
   const childrenWithProps = React.Children.map(children, (child) =>
     React.cloneElement(child, {
       language,
       setLanguage,
       languageToUse,
+      darkMode,
     })
   );
   return (

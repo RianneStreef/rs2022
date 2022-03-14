@@ -13,8 +13,8 @@
 .unicorn-head {
   width: 80px;
   position: relative;
-  top: 18px;
-  left: 3px;
+  top: 28px;
+  left: 8px;
   -webkit-transform-origin: bottom left 10px;
   transform-origin: bottom-left 10px;
   -webkit-animation: shaking-head 7s ease-in-out forwards infinite;

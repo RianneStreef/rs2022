@@ -29,7 +29,7 @@
 }
 
 .footer-links a {
-  color: var(--color-background);
+  color: #fff;
   text-decoration: none;
   font-size: 12px;
 }
@@ -45,8 +45,8 @@
 
 .column-2 {
   margin: 0 10px;
-  border-left: 1px solid var(--color-background);
-  border-right: 1px solid var(--color-background);
+  border-left: 1px solid #fff;
+  border-right: 1px solid #fff;
 }
 
 .footer-middle {
@@ -66,8 +66,11 @@
 }
 
 .copyright a {
-  color: var(--color-background);
-  text-decoration: none;
+  color: #fff;
+}
+
+.copyright a:visited {
+  color: #fff;
 }
 
 .social {

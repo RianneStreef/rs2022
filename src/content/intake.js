@@ -1,12 +1,12 @@
 const intakeInfo = {
-  companyName: "Template",
-  companyAddress: "Template Street",
-  domainName: "www.template.com",
+  companyName: "Rianne Streef",
+  companyAddress: "Residence la Saponaire, Val Thorens",
+  domainName: "www.riannestreef.com",
 
-  siteName: "Template site",
+  siteName: "Rianne Streef",
   highlightColor: "#ff00ff",
 
-  taxNumber: "1313",
+  taxNumber: "900 783 903 00017",
 };
 
 export default intakeInfo;

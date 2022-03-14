@@ -15,10 +15,8 @@
 
 .project-info-card {
   width: 80vw;
-  height: 60vh;
   background-color: var(--color-background);
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-  margin-top: 50px;
   padding: 30px;
 }
 
@@ -51,6 +49,8 @@
   width: 80vw;
   margin: auto;
   height: fit-content;
+  display: flex;
+  justify-content: center;
 }
 
 .project-image {
@@ -67,14 +67,9 @@
 }
 
 @media only screen and (min-width: 768px) {
-  .project-info-card {
-    width: 50vw;
-    height: 50vh;
-    margin-top: -20%;
-  }
-
   .project-images {
     flex-direction: row;
+    justify-content: space-around;
   }
 
   .project-images a {

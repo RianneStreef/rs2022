@@ -93,8 +93,9 @@ const Footer = (props) => {
       </div>
       <p className="copyright">
         Copyright
-        <sup> &copy; </sup> Rianne Streef 2022 -{" "}
-        <Link to="/legal">{languageToUse.legal}</Link>
+        <sup> &copy; </sup> Rianne Streef 2022 - Logo:{" "}
+        <a href="https://claireturner-design.com">Claire Turner</a> -
+        <Link to="/legal"> {languageToUse.legal}</Link>
       </p>
     </div>
   );
