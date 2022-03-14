@@ -33,7 +33,11 @@ const IndexPage = function (props) {
       <Home language={language} languageToUse={languageToUse} />
       <About language={language} languageToUse={languageToUse} />
       <Resume language={language} languageToUse={languageToUse} />
-      <Skills language={language} languageToUse={languageToUse} />
+      <Skills
+        language={language}
+        languageToUse={languageToUse}
+        darkMode={darkMode}
+      />
       <Projects
         language={language}
         languageToUse={languageToUse}
