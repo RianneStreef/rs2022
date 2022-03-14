@@ -18,7 +18,7 @@ const Home = (props) => {
     let me = document.getElementById("me");
 
     setTimeout(() => {
-      me.classList.add("opaque");
+      me.classList.add("opaque-photo");
     }, 100);
   });
 

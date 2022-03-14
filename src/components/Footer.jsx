@@ -15,8 +15,6 @@ import thumbsDownWhite from "../images/thumbs-down-white.png";
 
 const Footer = (props) => {
   let { language, languageToUse, darkMode, setDarkMode } = props;
-  console.log("darkMode");
-  console.log(darkMode);
 
   language === "english" ? (languageToUse = content.english) : null;
   language === "french" ? (languageToUse = content.french) : null;
@@ -24,12 +22,14 @@ const Footer = (props) => {
 
   function handleDarkMode() {
     setDarkMode(!darkMode);
+    console.log("darkMode in footer");
+    console.log(darkMode);
 
     var backgroundColor = document.documentElement.style;
     var textColor = document.documentElement.style;
     var shadowColor = document.documentElement.style;
 
-    if (darkMode === true) {
+    if (darkMode === false) {
       backgroundColor.setProperty("--color-background", "#000");
       textColor.setProperty("--color-text", "#fff");
       shadowColor.setProperty("--color-shadow", "#313131");

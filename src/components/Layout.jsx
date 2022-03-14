@@ -8,7 +8,7 @@ const Layout = ({ children }) => {
   let languageToUse = "";
   //  let languageInStorage = "";
 
-  let [darkMode, setDarkMode] = useState("false");
+  let [darkMode, setDarkMode] = useState(false);
 
   // useEffect(() => {
   //   if (localStorage.getItem("languageInStorage")) {

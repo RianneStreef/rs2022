@@ -21,8 +21,6 @@ import xWhite from "../images/x-white.png";
 const Projects = (props) => {
   let { language, languageToUse, darkMode } = props;
 
-  console.log(language);
-
   language === "english" ? (languageToUse = content.english) : null;
   language === "french" ? (languageToUse = content.french) : null;
   language === "dutch" ? (languageToUse = content.dutch) : null;

@@ -25,11 +25,10 @@
 
 .me {
   opacity: 0;
-  width: 100%;
   height: auto;
 }
 
-.opaque {
+.opaque-photo {
   opacity: 1;
   transition: opacity 5s linear;
 }
@@ -40,5 +39,9 @@
     justify-content: space-around;
     margin-bottom: 80px;
     height: calc(100vh - 60px);
+  }
+
+  .me {
+    width: auto;
   }
 }
