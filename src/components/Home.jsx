@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 
 import { content } from "../content/languages";
 
@@ -13,6 +13,15 @@ const Home = (props) => {
   language === "english" ? (languageToUse = content.english) : null;
   language === "french" ? (languageToUse = content.french) : null;
   language === "dutch" ? (languageToUse = content.dutch) : null;
+
+  useEffect(() => {
+    let me = document.getElementById("me");
+
+    setTimeout(() => {
+      me.classList.add("opaque");
+    }, 100);
+  });
+
   return (
     <div className="home" id="home">
       <div>
@@ -37,7 +46,7 @@ const Home = (props) => {
           </a>
         </div>
       </div>
-      <img src={me} alt="Me!" className="me" />
+      <img src={me} alt="Me!" className="me" id="me" />
     </div>
   );
 };

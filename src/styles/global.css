@@ -17,6 +17,7 @@ body {
   font-family: "Montserrat";
   color: var(--color-text);
   background-color: var(--color-background);
+  transition: all 500ms linear;
 }
 
 .layout {

@@ -25,6 +25,12 @@
 
 .me {
   height: 100%;
+  opacity: 0;
+}
+
+.opaque {
+  opacity: 1;
+  transition: opacity 5s linear;
 }
 
 @media only screen and (min-width: 768px) {
