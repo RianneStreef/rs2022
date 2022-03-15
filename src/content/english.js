@@ -3,9 +3,9 @@ export const english = {
 
   indexTitle: "Rianne Streef",
   metaDescription:
-    "Rianne Streef, web developer from Val Thorens, 3 Valleys. For websites that are an investment, not a cost.",
+    "Rianne Streef, web developer from Val Thorens, 3 Valleys. Custom web designs for small businesses and individuals.",
   metaKeywords:
-    "web development, website, Val Thorens, Les Belleville, 3 Valleys",
+    "web design for small businisses, web design for individuals, responsive mobile design, web design packages, QR codes linked websites, website design les Belleville, website design Val Tree Valleys",
 
   home: "Home",
   about: "About",

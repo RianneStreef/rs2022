@@ -3,10 +3,9 @@ export const french = {
 
   indexTitle: "Rianne Streef",
   metaDescription:
-    "Rianne Streef, développeur web de Val Thorens, 3 Vallées. Pour les sites Web qui représentent un investissement, pas un frais.",
+    "Rianne Streef, web developer de Val Thorens, 3 Vallées. Créations web personnelles pour petites entreprises et particuliers",
   metaKeywords:
-    "développement web, site web, Val Thorens, Les Belleville, 3 Vallées",
-
+    "création de sites pour les petites entreprises, création de sites pour les particuliers, designs responsives et mobiles, sites Web liés par codes QR, création de site web dans les Belleville, création de site web dans les Trois Vallées",
   home: "Accueil",
   about: "A propos",
   resume: "Résumé",

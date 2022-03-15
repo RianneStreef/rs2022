@@ -3,9 +3,9 @@ export const dutch = {
 
   indexTitle: "Rianne Streef",
   metaDescription:
-    "Rianne Streef, web developer from Val Thorens, 3 Valleys. For websites that are an investment, not a cost.",
+    "Rianne Streef, web developer uit Val Thorens, 3 Valleys. Personelijke web designs voor kleine bedrijven en individuen",
   metaKeywords:
-    "web development, website, Val Thorens, Les Belleville, 3 Valleys",
+    "web design voor kleine bedrijven, web design voor individuen, responsief mobiel design, web design packages, naar QR codes gelinkete websites, website design les Belleville, website design Val Tree Valleys",
 
   home: "Home",
   about: "Over mij",
@@ -22,36 +22,35 @@ export const dutch = {
 
   aboutTitle: "About Me",
   aboutIntro:
-    "I'm Rianne, a freelance web developer from Val Thorens. I create responsive websites and mobile applications that work for your business! I'm passionate about tech, design, and development.",
+    "Ik ben Rianne, een zelfstandig web developer uit Val Thorens. Ik creeër responsieve websites en mobile applicaties die werken voor uw bedrijf! Ik benm geintresseerd in technologie, ontwikkeling, en eenhoorns.",
 
-  name: "Name",
-  dateOfBirth: "Date of Birth",
-  nationalityTitle: "Nationality",
-  nationality: "Dutch",
-  placeOfResidence: "Place of Residence",
+  name: "Naam",
+  dateOfBirth: "Geboortedatum",
+  nationalityTitle: "Nationaliteit",
+  nationality: "Nederlandse",
+  placeOfResidence: "Woonplaats",
   email: "Email",
-  phone: "Phone",
+  phone: "Telefoon nummer",
 
-  resumeIntro: "My education",
+  resumeIntro: "Mijn opleidingen",
 
   hdhIntro:
-    "Hotelschool The Hague is a single sector university of applied sciences in the Netherlands.",
+    "Hotelschool Den Haag is een toegepaste wetenschappen universiteit in Nederland.",
   ocIntro:
-    "OpenClassrooms is a France-based online education platform for vocational training, providing courses in IT, technology, entrepreneurship, and digital skills.",
+    "OpenClassrooms is een in een Frankrijk gebaseerd, online opleidings platform beroepsonderwijs, met vakken als IT, technologie, ondernemerschap, en digitale vaardigheden.",
   udemyIntro:
-    "Udemy, Inc. is a for-profit massive open online course provider aimed at professional adults and students.",
+    "Udemy, Inc. is een groot open online cursusaanbieder gericht op professionele volwassenen en studenten.",
 
-  skillsIntro: "What can we work with",
+  skillsIntro: "Waar kunnen we mee werken",
 
-  projectsIntro: "Happy clients! - Click on the photos for more details",
+  projectsIntro: "Happy clients! - Klik op de fotos voor mee informatie. ",
 
   contactIntro: "Let's talk!",
 
-  message: "Message",
-  send: "Send",
+  message: "Bericht",
+  send: "Versturen",
 
-  legal: "Legal notice",
+  legal: "Disclaimer",
 
-  thanks:
-    "Thank you for your message, I will get back to you as soon as possible.",
+  thanks: "Bedankt voor uw bericht, ik zal u zo snel mogelijk antwoorden.",
 };
