@@ -46,7 +46,15 @@ const Home = (props) => {
           </a>
         </div>
       </div>
-      <img src={me} alt="Me!" className="me" id="me" />
+      <div className="logo-container">
+        <img src={me} alt="Me!" className="me" id="me" />
+        <p className="logo-dedication">
+          {languageToUse.logoDedication}
+          <a href="https://www.claireturner-design.com" target="_blank">
+            Claire Turner Design
+          </a>
+        </p>
+      </div>
     </div>
   );
 };

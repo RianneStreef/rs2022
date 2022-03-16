@@ -6,7 +6,7 @@ export const projects = {
       "Children's illustrations and accessories. Site to show available products, and to contact the artist for personalised items, with web shop coming soon!",
     descriptionFr: "description fr",
     descriptionNl: "description nl",
-    link: "https://www.claireturner-design.com",
+    link: "www.claireturner-design.com",
   },
   faceOuest: {
     id: "faceOuest",
@@ -14,7 +14,7 @@ export const projects = {
     descriptionEn: "Online restaurant menu with a QR code",
     descriptionFr: "",
     descriptionNl: "",
-    link: "https://www.menu-lafaceouest.com/",
+    link: "www.menu-lafaceouest.com/",
   },
   seb: {
     id: "seb",
@@ -24,7 +24,7 @@ export const projects = {
       "Catereer that uses the website for information about his products and easy ways to contact them.  ",
     descriptionFr: "",
     descriptionNl: "",
-    link: "https://www.sebgourmet-traiteur.com/",
+    link: "www.sebgourmet-traiteur.com/",
   },
   core: {
     id: "core",
@@ -34,7 +34,7 @@ export const projects = {
       "Explanations of services offered by this physical therapist",
     descriptionFr: "description fr",
     descriptionNl: "description nl",
-    link: "https://www.coremove.com",
+    link: "www.coremove.com",
   },
   caribou: {
     id: "caribou",
@@ -43,7 +43,7 @@ export const projects = {
       "Get a first impression of this restaurant and check out the menus via this webiste.",
     descriptionFr: "",
     descriptionNl: "",
-    link: "https://www.chalet-du-caribou.com",
+    link: "www.chalet-du-caribou.com",
   },
   rendezvous: {
     id: "rendezvous",
@@ -52,7 +52,7 @@ export const projects = {
       "Combination of informational website with online menus connect to QR codes. ",
     descriptionFr: "",
     descriptionNl: "",
-    link: "https://www.lerendezvousvalthorens.com",
+    link: "www.lerendezvousvalthorens.com",
   },
   optic: {
     id: "optic",
@@ -60,6 +60,6 @@ export const projects = {
     descriptionEn: "Infomational website for a opticien.",
     descriptionFr: "",
     descriptionNl: "",
-    link: "https://www.optic2300.com",
+    link: "www.optic2300.com",
   },
 };

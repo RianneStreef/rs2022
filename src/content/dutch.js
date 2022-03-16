@@ -20,6 +20,8 @@ export const dutch = {
   underTitle2: "web developer ",
   underTitle3: " gebaseerd in Val Thorens",
 
+  logoDedication: "Logo gecreëerd door ",
+
   aboutTitle: "About Me",
   aboutIntro:
     "Ik ben Rianne, een zelfstandig web developer uit Val Thorens. Ik creeër responsieve websites en mobile applicaties die werken voor uw bedrijf! Ik benm geintresseerd in technologie, ontwikkeling, en eenhoorns.",

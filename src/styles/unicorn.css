@@ -11,10 +11,10 @@
 }
 
 .unicorn-head {
-  width: 80px;
+  width: 60px;
   position: relative;
-  top: 28px;
-  left: 8px;
+  top: 20px;
+  left: 6px;
   -webkit-transform-origin: bottom left 10px;
   transform-origin: bottom-left 10px;
   -webkit-animation: shaking-head 7s ease-in-out forwards infinite;
@@ -23,7 +23,7 @@
 }
 
 .unicorn-body {
-  width: 120px;
+  width: 90px;
 }
 
 @-webkit-keyframes shaking-head {

@@ -28,6 +28,15 @@
   height: auto;
 }
 
+.logo-dedication {
+  font-size: 10px;
+  text-align: right;
+}
+
+.logo-dedication a {
+  color: var(--color-text);
+}
+
 .opaque-photo {
   opacity: 1;
   transition: opacity 5s linear;

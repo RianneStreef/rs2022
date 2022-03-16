@@ -19,6 +19,8 @@ export const french = {
   underTitle2: "développeuse web ",
   underTitle3: " basé à Val Thorens",
 
+  logoDedication: "Logo crée par ",
+
   aboutTitle: "A propos de moi",
   aboutIntro:
     "I'm Rianne, a freelance web developer from Val Thorens. I create responsive websites and mobile applications that work for your business! I'm passionate about tech, design, and development.",

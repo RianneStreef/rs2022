@@ -56,16 +56,20 @@
 }
 
 .project-image {
-  margin: 20px;
   width: 100%;
 }
 
-.caribou {
+.faceOuest {
   width: 80%;
 }
 
+.caribou {
+  width: 70%;
+}
+
 .optic {
-  width: 80%;
+  width: 70%;
+  margin: 20px;
 }
 
 @media only screen and (min-width: 768px) {
@@ -78,5 +82,8 @@
     width: 15vw;
     margin: 10px 30px;
     height: fit-content;
+  }
+  .project-image {
+    margin: 0;
   }
 }
