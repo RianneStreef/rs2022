@@ -26,11 +26,13 @@
 .me {
   opacity: 0;
   height: auto;
+  width: 100%;
 }
 
 .logo-dedication {
   font-size: 10px;
   text-align: right;
+  margin-right: 5px;
 }
 
 .logo-dedication a {
