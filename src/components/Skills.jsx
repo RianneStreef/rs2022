@@ -30,9 +30,31 @@ const Skills = (props) => {
   language === "dutch" ? (languageToUse = content.dutch) : null;
 
   useEffect(() => {
-    console.log("darkMode useEffect Skills");
-    console.log(darkMode);
-  }, [darkMode]);
+    const skills = document.getElementById("skills");
+    console.log(skills.getBoundingClientRect());
+    const progressBar1 = document.getElementById("progress-bar-1");
+    const progressBar2 = document.getElementById("progress-bar-2");
+    const progressBar3 = document.getElementById("progress-bar-3");
+    const progressBar4 = document.getElementById("progress-bar-4");
+    const progressBar5 = document.getElementById("progress-bar-5");
+    const progressBar6 = document.getElementById("progress-bar-6");
+    const progressBar7 = document.getElementById("progress-bar-7");
+    const progressBar8 = document.getElementById("progress-bar-8");
+
+    window.addEventListener("scroll", () => {
+      if (skills.getBoundingClientRect().y <= 100) {
+        progressBar1.classList.add("progress-value-1");
+        progressBar2.classList.add("progress-value-2");
+        progressBar3.classList.add("progress-value-3");
+        progressBar4.classList.add("progress-value-4");
+        progressBar5.classList.add("progress-value-5");
+        progressBar6.classList.add("progress-value-6");
+        progressBar7.classList.add("progress-value-7");
+        progressBar8.classList.add("progress-value-8");
+        return;
+      }
+    });
+  });
 
   return (
     <div className="skills" id="skills">
@@ -53,9 +75,8 @@ const Skills = (props) => {
             </div>
             <h6>95%</h6>
           </div>
-          <div className="row progress">
-            <div className="pink skill1-pink" />
-            <div className="light-pink skill1-light-pink" />
+          <div class="progress">
+            <div class=" progress-value" id="progress-bar-1" />
           </div>
         </div>
         <div className="skills-details">
@@ -70,9 +91,8 @@ const Skills = (props) => {
             </div>
             <h6>90%</h6>
           </div>
-          <div className="row progress">
-            <div className="pink skill2-pink" />
-            <div className="light-pink skill2-light-pink" />
+          <div class="progress">
+            <div class="progress-value" id="progress-bar-2" />
           </div>
         </div>
         <div className="skills-details">
@@ -87,9 +107,8 @@ const Skills = (props) => {
             </div>
             <h6>70%</h6>
           </div>
-          <div className="row progress">
-            <div className="pink skill3-pink" />
-            <div className="light-pink skill3-light-pink" />
+          <div class="progress">
+            <div class="progress-value" id="progress-bar-3" />
           </div>
         </div>
         <div className="skills-details">
@@ -104,9 +123,8 @@ const Skills = (props) => {
             </div>
             <h6>75%</h6>
           </div>
-          <div className="row progress">
-            <div className="pink skill4-pink" />
-            <div className="light-pink skill4-light-pink" />
+          <div class="progress">
+            <div class="progress-value" id="progress-bar-4" />
           </div>
         </div>
         <div className="skills-details">
@@ -121,9 +139,8 @@ const Skills = (props) => {
             </div>
             <h6>75%</h6>
           </div>
-          <div className="row progress">
-            <div className="pink skill5-pink" />
-            <div className="light-pink skill5-light-pink" />
+          <div class="progress">
+            <div class="progress-value" id="progress-bar-5" />
           </div>
         </div>
         <div className="skills-details">
@@ -138,9 +155,8 @@ const Skills = (props) => {
             </div>
             <h6>90%</h6>
           </div>
-          <div className="row progress">
-            <div className="pink skill6-pink" />
-            <div className="light-pink skill6-light-pink" />
+          <div class="progress">
+            <div class="progress-value" id="progress-bar-6" />
           </div>
         </div>
         <div className="skills-details">
@@ -155,9 +171,8 @@ const Skills = (props) => {
             </div>
             <h6>80%</h6>
           </div>
-          <div className="row progress">
-            <div className="pink skill7-pink" />
-            <div className="light-pink skill7-light-pink" />
+          <div class="progress">
+            <div class="progress-value" id="progress-bar-7" />
           </div>
         </div>
         <div className="skills-details">
@@ -172,9 +187,8 @@ const Skills = (props) => {
             </div>
             <h6>60%</h6>
           </div>
-          <div className="row progress">
-            <div className="pink skill8-pink" />
-            <div className="light-pink skill8-light-pink" />
+          <div class="progress">
+            <div class="progress-value" id="progress-bar-8" />
           </div>
         </div>
       </div>

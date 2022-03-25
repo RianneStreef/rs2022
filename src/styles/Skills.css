@@ -32,72 +32,122 @@
   margin-top: 10px;
 }
 
-.pink {
-  background-color: var(--color-highlight);
-  height: 10px;
+.progress {
+  background: rgba(255, 255, 255, 0.1);
+  justify-content: flex-start;
+  border-radius: 100px;
+  align-items: center;
+  position: relative;
+  padding: 0 5px;
+  display: flex;
+  height: 30px;
+  width: 500px;
 }
 
-.light-pink {
-  background-color: var(--color-shadow);
-  height: 10px;
+.progress-value {
+  box-shadow: 0 10px 40px -10px rgb(61, 61, 61);
+  border-radius: 100px;
+  background: var(--color-highlight);
+  height: 15px;
+  width: 0;
 }
 
-.skill1-pink {
-  width: 95%;
+.progress-value-1 {
+  animation: load-1 3s normal forwards;
 }
 
-.skill1-light-pink {
-  width: 5%;
+.progress-value-2 {
+  animation: load-2 3s normal forwards;
+}
+.progress-value-3 {
+  animation: load-3 3s normal forwards;
 }
 
-.skill2-pink {
-  width: 90%;
+.progress-value-4 {
+  animation: load-4 3s normal forwards;
 }
 
-.skill2-light-pink {
-  width: 10%;
-}
-.skill3-pink {
-  width: 70%;
+.progress-value-5 {
+  animation: load-5 3s normal forwards;
 }
 
-.skill3-light-pink {
-  width: 30%;
-}
-.skill4-pink {
-  width: 75%;
+.progress-value-6 {
+  animation: load-6 3s normal forwards;
 }
 
-.skill4-light-pink {
-  width: 25%;
-}
-.skill5-pink {
-  width: 75%;
+.progress-value-7 {
+  animation: load-7 3s normal forwards;
 }
 
-.skill5-light-pink {
-  width: 25%;
-}
-.skill6-pink {
-  width: 90%;
+.progress-value-8 {
+  animation: load-8 3s normal forwards;
 }
 
-.skill6-light-pink {
-  width: 10%;
-}
-.skill7-pink {
-  width: 80%;
-}
-
-.skill7-light-pink {
-  width: 20%;
-}
-.skill8-pink {
-  width: 60%;
+@keyframes load-1 {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 95%;
+  }
 }
 
-.skill8-light-pink {
-  width: 40%;
+@keyframes load-2 {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 90%;
+  }
+}
+
+@keyframes load-3 {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 70%;
+  }
+}
+@keyframes load-4 {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 75%;
+  }
+}
+@keyframes load-5 {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 75%;
+  }
+}
+@keyframes load-6 {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 90%;
+  }
+}
+@keyframes load-7 {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 80%;
+  }
+}
+@keyframes load-8 {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 60%;
+  }
 }
 
 @media only screen and (min-width: 768px) {
