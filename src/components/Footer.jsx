@@ -13,6 +13,8 @@ import insta from "../images/instagram.png";
 import thumbsUpWhite from "../images/thumbs-up-white.png";
 import thumbsDownWhite from "../images/thumbs-down-white.png";
 
+import rockLogo from "../images/rock-n-roll.png";
+
 const Footer = (props) => {
   let { language, languageToUse, darkMode, setDarkMode } = props;
 
@@ -43,7 +45,7 @@ const Footer = (props) => {
   return (
     <div className="footer">
       <div className="footer-top">
-        <Unicorn />
+        {darkMode ? <img src={rockLogo} className="rock-logo" /> : <Unicorn />}
         <div className="footer-links">
           <div className="column-1">
             <Link to="/#about">About Me</Link>

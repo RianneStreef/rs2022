@@ -34,6 +34,12 @@
   font-size: 12px;
 }
 
+.rock-logo {
+  width: 50%;
+  padding: 20px 0 0 60px;
+  margin: auto;
+}
+
 .column-1,
 .column-2,
 .column-3 {
@@ -169,5 +175,10 @@ input:checked + .slider:before {
   .footer-top {
     flex-direction: row;
     justify-content: space-between;
+  }
+
+  .rock-logo {
+    width: 15%;
+    padding-left: 60px;
   }
 }
