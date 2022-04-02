@@ -37,7 +37,7 @@ const About = (props) => {
           <span className="grey-text">Val Thorens, France</span>
           <br />
           <span className="about-subject">{languageToUse.email}:</span>
-          <span className="grey-text">rianne@riannestreef.com</span>
+          <span className="grey-text">contact@riannestreef.com</span>
           <br />
           <span className="about-subject">{languageToUse.phone}:</span>
           <span className="grey-text">+33 6 81 92 78 55 </span>

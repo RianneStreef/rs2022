@@ -24,7 +24,7 @@ export const dutch = {
 
   aboutTitle: "About Me",
   aboutIntro:
-    "Ik ben Rianne, een zelfstandig web developer uit Val Thorens. Ik creeër responsieve websites en mobile applicaties die werken voor uw bedrijf! Ik benm geintresseerd in technologie, ontwikkeling, en eenhoorns.",
+    "Ik ben Rianne, een zelfstandig web developer uit Val Thorens. Ik creeër responsieve websites en mobile applicaties die werken voor uw bedrijf! Ik ben geintresseerd in technologie, ontwikkeling, en eenhoorns.",
 
   name: "Naam",
   dateOfBirth: "Geboortedatum",
