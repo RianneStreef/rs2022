@@ -25,7 +25,6 @@
 
 .me {
   opacity: 0;
-  height: auto;
   width: 100%;
 }
 
@@ -48,12 +47,17 @@
   .home {
     flex-direction: row;
     justify-content: space-around;
+    align-items: center;
     margin-bottom: 80px;
     height: calc(100vh - 60px);
   }
 
+  .home > * {
+    width: 50%;
+  }
+
   .me {
-    width: auto;
+    width: 50%;
     height: 80%;
     margin-right: 100px;
     margin-top: 50px;
