@@ -45,7 +45,7 @@ export const english = {
 
   skillsIntro: "What can we work with",
 
-  projectsIntro: "Happy clients! - Click on the photos for more details",
+  projectsIntro: "Happy clients!",
 
   contactIntro: "Let's talk!",
 

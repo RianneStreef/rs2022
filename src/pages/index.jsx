@@ -10,7 +10,7 @@ import Home from "../components/Home";
 import About from "../components/About";
 import Resume from "../components/Resume";
 import Skills from "../components/Skills";
-import Projects from "../components/Projects";
+import Projects2 from "../components/Projects2";
 import Contact from "../components/Contact";
 
 const IndexPage = function (props) {
@@ -38,7 +38,7 @@ const IndexPage = function (props) {
         languageToUse={languageToUse}
         darkMode={darkMode}
       />
-      <Projects
+      <Projects2
         language={language}
         languageToUse={languageToUse}
         darkMode={darkMode}

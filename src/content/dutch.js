@@ -45,7 +45,7 @@ export const dutch = {
 
   skillsIntro: "Waar kunnen we mee werken",
 
-  projectsIntro: "Happy clients! - Klik op de fotos voor mee informatie. ",
+  projectsIntro: "Happy clients!",
 
   contactIntro: "Let's talk!",
 
